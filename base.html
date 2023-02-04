@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Bakchodi</title>
+<link rel="stylesheet" href="base.css">
+</head>
+<body>
+<p>Tu smart h?</p>
+<img src="https://media.tenor.com/9IVmLRYNCrQAAAAd/bhagam-bhag-aeyy-heyy.gif">
+<button id="btn-1">NO</button>
+<button id="btn-2">YES</button>
+<script>
+    const button2 = document.getElementById('btn-2');
+    let left = 40;
+    button2.addEventListener('mouseover', function() {
+      if(left == 40){
+        left = 44;
+      }
+      else{
+        left = 40;
+      }
+      this.style.left = left + '%';
+    });
+    
+    </script>
+    <script>document.getElementById('btn-1').addEventListener('click', function() {
+    alert('FS GYA NA CHUTIYE');
+    });
+    </script>
+</body>
+</html>
